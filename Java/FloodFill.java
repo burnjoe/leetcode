@@ -15,7 +15,7 @@ class FloodFill {
             }
              
             floodFill(image, sr-1, sc, color, old);	// up
-            floodFill(image, sr, sc+1, color, old);  // right
+            floodFill(image, sr, sc+1, color, old); // right
             floodFill(image, sr+1, sc, color, old);	// down
             floodFill(image, sr, sc-1, color, old);	// left
          }
